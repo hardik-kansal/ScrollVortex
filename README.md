@@ -1,4 +1,14 @@
-# PayX - ScrollVortex Hackathon
+# PayX - Scroll-Vortex Hackathon
+
+
+## PayX X Scroll-Sepolia
+
+- Deployed contract centralpay "https://sepolia.scrollscan.com/address/0xd9b2577b086c84833f48d95cF8CbaD5E40A04247#code"
+
+- Deployed contract wallet "https://sepolia.scrollscan.com/address/0x6D4804DD8fab4deA201aaCf41285774825DbD81e#code"
+
+- Deployed contract ERC6551Registry "https://sepolia.scrollscan.com/address/0x34B7700C5000D2e18354EcdC452A7fa98efBC757#code"
+
 
 ## Project Summary
 
@@ -7,30 +17,26 @@ PayX, developed for the ScrollVortex Hackathon, enhances Non-Fungible Tokens (NF
 - **Minting NFTs:** Users can mint any number of NFTs, allowing for diverse asset representation within the blockchain.
 
 - **Wallet Restrictions:** Each wallet is subject to restrictions:
+
   - **Admin-Only Deposits:** Only administrators can deposit ETH into wallets, ensuring centralized control.
+
   - **Owner Controls:** NFT owners can send ETH to specified addresses within a defined timeframe. Failure to do so results in locked funds, withdrawable by administrators.
+
 
 ## Problem Solving
 
-PayX addresses the challenge of ensuring proper utilization of donated funds, such as for clothing donations. By enforcing wallet restrictions, the project ensures funds are used as intended, preventing misuse.
+PayX addresses the challenge of ensuring proper utilization of donated funds.Since the money can only be sent to allocated address and in definite interval , hence the money given as donation can only be used in quality work.(like clothes shops,groceries in a city.) 
 
-## Technologies Used
 
-- **Solidity:** Programming language for Ethereum smart contracts.
-- **Remix:** Online IDE for smart contract development.
+**Video Description:**
 
-## Repository Readme
+In this video demonstration, we showcase the functionality of PayX:
 
-- **Flexible NFT Minting:** Users can mint diverse NFTs, representing various assets.
-- **Wallet Restrictions:** Administrators control wallet deposits, while owners have limited timeframes for fund usage.
-- **Security and Transparency:** Smart contracts ensure secure and transparent fund handling.
+1. **Admin Deposit:** The admin address deposits 30 ETH into the central PayX contract.
 
-### Usage Example
+2. **Creating Wallets:** Two wallets, w1 and w2, are created within a single NFT.
 
-PayX enables organizations to facilitate clothing donations. NFTs represent clothing items, each linked to a wallet with ETH funds for purchasing. Administrators control fund allocation, while owners must use funds within allocated timeframes.
+3. **Fund Transfer:** The admin address sends ETH to wallets w1 and w2. These funds can only be sent to specified addresses and only after a certain time, as indicated by the wallet restrictions.
 
-### Additional Information
 
-- **Tests:** Comprehensive tests ensure smart contract functionality.
-- **Deployment Scripts:** Scripts facilitate easy smart contract deployment.
 

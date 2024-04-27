@@ -1,0 +1,3 @@
+[submodule "ScrollVortex/lib/forge-std"]
+	path = ScrollVortex/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
